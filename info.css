@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur body agar lebih nyaman dilihat */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Judul halaman */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+/* Styling untuk header tabel */
+th {
+    background-color: #0087d4;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styling untuk baris tabel */
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Mengatur warna baris ganjil */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect untuk baris tabel */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pesan jika tidak ada data */
+td[colspan="13"] {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+
+/* Styling untuk table container (optional) */
+.table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+/* Styling untuk halaman agar responsif */
+@media screen and (max-width: 768px) {
+    th, td {
+        padding: 8px;
+    }
+}

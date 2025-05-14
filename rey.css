@@ -1,0 +1,167 @@
+/* Global Styles */
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header .top-bar {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #333;
+    padding: 10px 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f0a500;
+}
+
+/* Hero Section */
+.hero {
+    background: url('img/b.jpg') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero .overlay {
+    text-align: center;
+   
+    
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.hero button {
+    background: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background: #e38c00;
+}
+
+/* Rooms Section */
+.rooms {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.rooms h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(54, 145, 231);
+}
+
+.room-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.room {
+    background: #000000;
+    border: 1px solid #ddd;
+    /* border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+    width: 400px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.room:hover {
+    transform: translateY(-5px);
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+}
+
+.room h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.room p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.room button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.room button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px 0;
+}
